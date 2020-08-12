@@ -66,13 +66,5 @@ struct PhotoManager {
 
         return photoarray
     }
-//
-//    func ParseNextJSON( _ nextUrl : String) -> BookModel
-//       {
-//
-//             var booksNext = BookModel(nextValue: nextUrl)
-//             return booksNext
-//       }
-    
 }
 
