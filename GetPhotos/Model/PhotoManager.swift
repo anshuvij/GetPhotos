@@ -22,23 +22,6 @@ struct PhotoManager {
         performRequest(with: urlString)
     }
     
-//    func nextBooks(urlString : String)
-//    {
-//        performRequest(with: urlString)
-//    }
-    
-//    func SearchBookByCategory(category : String, search : String)
-//       {
-//
-//           let UrlString = "\(bookUrl)&topic=\(category)&search=\(search)"
-//        let urlNew:String = UrlString.replacingOccurrences(of: " ", with: "%20")
-////        var urlString:String = UrlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
-//           print(urlNew)
-//
-//        performRequest(with: urlNew)
-//       }
-//
-    
      func performRequest(with urlString : String)
      {
         if let url  = URL(string: urlString){
